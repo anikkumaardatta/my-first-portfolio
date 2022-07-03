@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+
+    background-image: url(/src/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section_container{
+    display: flex;
+    margin: 0 5%;
+
+}
+section .section_container .headding{
+    font-size: 50px;
+}
+section .section_container #developer_name{
+    color: #ffa500;
+}
+section .section_container .half_width{
+    /* padding-left: 5%; */
+    width: 50vw;
+}
+section .section_container .half_width .biography{
+    color: #505050;
+}
+section .section_container .half_width img{
+    border: 5px solid rgb(255, 137, 40);
+    border-radius: 50%;
+    width: 45vw;
+}
+section .section_container .half_width .link_btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #F68D6B , #FB6354);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
