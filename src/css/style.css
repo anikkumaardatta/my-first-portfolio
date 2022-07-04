@@ -5,7 +5,7 @@ body{
 }
 .first_section{
 
-    background-image: url(/src/images/top-banner.png);
+    background-image: url(/my-first-portfolio/src/images/top-banner.png);
     background-repeat: no-repeat;
 }
 .flex_container{
@@ -47,13 +47,13 @@ section .section_container .margin_top{
     margin: 100px 40px;
 }
 .second_section{
-    background-image: url(/src/images/dream-bg.png);
+    background-image: url(/my-first-portfolio/src/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-top: 120px;
 }
 .third_section{
-    background-image: url(/src/images/exp-bg.png);
+    background-image: url(/my-first-portfolio/src/images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: 0 200px;
     margin-top: 120px;
@@ -76,14 +76,14 @@ section .section_container .margin_top{
     box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
 }
 .front_end_card{
-    border-top: 21px solid transparent;
-    border-bottom: 21px solid transparent;
-    border-left: 21px solid #ff4e3e;
+    border-left: 21px solid;
+    border-image: linear-gradient(#ff4e3e ,#ff7b3e);
+    border-image-slice: 1;
 }
 .baby_card{
-    border-top: 21px solid transparent;
-    border-bottom: 21px solid transparent;
-    border-left: 21px solid #0c4baa;
+    border-left: 21px solid;
+    border-image: linear-gradient(#0c4baa ,#129edf);
+    border-image-slice: 1;
     }
 .card_item h2{
     font-size: 40px;
