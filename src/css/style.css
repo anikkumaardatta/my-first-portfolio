@@ -41,7 +41,12 @@ section .section_container .half_width .link_btn{
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
-}
+    box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.1);
+    transition: all ease .5s;
+    }section .section_container .half_width .link_btn:hover{
+        background-image: linear-gradient(to right, #fb6354 , #f68d6b);
+        box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.04);
+        }
 section .section_container .margin_top{
 
     margin: 100px 40px;
@@ -80,25 +85,23 @@ section .section_container .margin_top{
     border-image-slice: 1;
     box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.2);
     transition: linear .2s;
-    }
-    .front_end_card:hover{
-        border-left: 21px solid;
-        border-image: linear-gradient(#ff4e3e ,#ff7b3e);
-        border-image-slice: 1;
-        box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
-    }
+    }   .front_end_card:hover{
+            border-left: 21px solid;
+            border-image: linear-gradient(#ff4e3e ,#ff7b3e);
+            border-image-slice: 1;
+            box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
+        }
 .baby_card{
     border-left: 21px solid;
     border-image: linear-gradient(#129edf , #0c4baa);
     border-image-slice: 1;
     box-shadow: 10px 10px 43px 15px rgba(0,0,0,0.2);
     transition: linear .2s;
-    }
-    .baby_card:hover{
-        border-left: 21px solid;
-        border-image: linear-gradient(#0c4baa ,#129edf);
-        border-image-slice: 1;
-        box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
+    }   .baby_card:hover{
+            border-left: 21px solid;
+            border-image: linear-gradient(#0c4baa ,#129edf);
+            border-image-slice: 1;
+            box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
         }
 .card_item h2{
     font-size: 40px;
