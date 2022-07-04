@@ -8,10 +8,12 @@ body{
     background-image: url(/src/images/top-banner.png);
     background-repeat: no-repeat;
 }
-.section_container{
+.flex_container{
     display: flex;
-    margin: 0 5%;
 
+}
+section .section_container {
+    margin: 0 5%;
 }
 section .section_container .headding{
     font-size: 50px;
@@ -20,23 +22,78 @@ section .section_container #developer_name{
     color: #ffa500;
 }
 section .section_container .half_width{
-    /* padding-left: 5%; */
     width: 50vw;
 }
-section .section_container .half_width .biography{
+.biography{
     color: #505050;
 }
+section .section_container .half_width .bgy2{
+    width: 35vw;
+}
+
 section .section_container .half_width img{
     width: 45vw;
 }
 section .section_container .half_width .link_btn{
     text-decoration: none;
     color: #ffffff;
-    background-image: linear-gradient(to right, #F68D6B , #FB6354);
+    background-image: linear-gradient(to right, #f68d6b , #fb6354);
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
 }
 section .section_container .margin_top{
-    margin-top: 100px;
+
+    margin: 100px 40px;
+}
+.second_section{
+    background-image: url(/src/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 120px;
+}
+.third_section{
+    background-image: url(/src/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 200px;
+    margin-top: 120px;
+
+}
+.title{
+    padding-left: 10px;
+    color: #313131;
+    border-left: 8px solid #535353;
+}
+.exp_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card_item{
+    width: 40vw;
+    height: 320px;
+    padding: 0 5px 0 25px ;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 10px 10px 23px 15px rgba(0,0,0,0.14);
+}
+.front_end_card{
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 21px solid #ff4e3e;
+}
+.baby_card{
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 21px solid #0c4baa;
+    }
+.card_item h2{
+    font-size: 40px;
+}
+.card_item h3{
+    color: #ff9900;
+}
+footer a{
+    margin-top: 120px;
+    color: #505050;
+    display: block;
+    text-align: center;
 }
